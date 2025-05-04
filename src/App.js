@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import BatchCoordinatesMessage from "./components/BatchCoordinatesMessage";
 
+// import LiveCoordinateMarker from "./components/LiveMarker";
+
+import MapWithPath from "./components/MapWithPath";
 function App() {
+  const batchId = "1d16c100-f95d-4b46-8faf-5f8a2ca93f27";
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ padding: "20px" }}>
+      <BatchCoordinatesMessage batchId={batchId} />
+      <br />
+      <br />
+      <br />
+      {/* <LiveCoordinateMarker /> */}
+      <MapWithPath />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
