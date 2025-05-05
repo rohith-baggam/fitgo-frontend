@@ -4,7 +4,7 @@ import BatchCoordinatesMessage from "./components/BatchCoordinatesMessage";
 
 import MapWithPath from "./components/MapWithPath";
 function App() {
-  const batchId = "1d16c100-f95d-4b46-8faf-5f8a2ca93f27";
+  const batchId = "c46ebd14-b92b-4f5f-b79b-36d2e2a092c0";
 
   return (
     <div style={{ padding: "20px" }}>

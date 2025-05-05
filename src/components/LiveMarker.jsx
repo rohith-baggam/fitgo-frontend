@@ -16,7 +16,7 @@ const LiveCoordinateMarker = () => {
 
   useEffect(() => {
     const fetchLatestCoordinate = () => {
-      fetch("http://localhost:8080/get-latest-co-ordinate-api?batchId=15", {
+      fetch("http://localhost:8080/get-latest-co-ordinate-api?batchId=20", {
         headers: {
           Authorization: `Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc0NTQ5MzI0NywiZXhwIjoxODg1MTMyNzA3MDA1MTZ9.o5fRVkzP5idnqsBM9veyhUJ6o7NmZPw3kQYOvV95KEI`,
         },
